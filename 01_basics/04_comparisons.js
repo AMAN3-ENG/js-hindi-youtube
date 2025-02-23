@@ -1,9 +1,22 @@
 
 
 
+let myYoutubename = "amanbarik.com"
 
+let anothername = myYoutubename
+anothername = "chaiaurcode"
 
+console.log(myYoutubename);
+console.log(anothername);
 
+let userOne = {
+    email: " user@gmail.com",
+    upi: "user@ybl"
+}
 
-console.log("2" > 1);
-console.log("02" > 1);
+let userTwo = userOne
+
+userTwo.email = "aman@GOOGLE.COM"
+
+console.log(userOne.email);
+console.log(userTwo);
